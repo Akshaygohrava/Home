@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d60ba746d7.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/responsive.css">
+    <title>About-Me</title>
+    <style>
+        @media screen and (min-width:500px) {
+            body {
+                background-color: rgba(224, 211, 211, 4);
+            }
+            .desktop-menu a {
+                color: black;
+            }
+            .h1-title {
+                color: black;
+                position: absolute;
+                left: 4vw;
+                top: 1.9vw;
+            }
+            .desktop-menu li a:hover {
+               border-bottom: 0.1em solid black;
+               padding-bottom: 0.5em;
+               color: whitesmoke;
+               filter: drop-shadow(2px 3px 3px black);
+           }
+            
+        }
+    </style>
+</head>
+<body>
+    <ul class="flow" id="menu-down">
+        <li class="mtop"><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+        <li class="mtop"><a href="project.html"><i class="fa-solid fa-layer-group"></i> PROJECTS</a></li>
+        <li class="mtop"><a href="gallery.html"><i class="fa-regular fa-images"></i> GALLERY</a></li>
+        <li class="mtop"><a href="about.html"><i class="fa-solid fa-user"></i> ABOUT ME</a></li>
+        <i class="fa-solid fa-xmark fa-beat-fade xclose" onclick="xclose()"></i>
+    </ul>
+     <!-- An Menu For Desktop Version -->
+     <ul class="desktop-menu">
+        <h1 class="h1-title">Hello There !</h1>
+        <li class="d-top"><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+        <li class="d-top"><a href="project.html"><i class="fa-solid fa-layer-group"></i> PROJECTS</a></li>
+        <li class="d-top"><a href="gallery.html"><i class="fa-regular fa-images"></i> GALLERY</a></li>
+        <li class="d-top a-top"><a href="about.html"><i class="fa-solid fa-user"></i> ABOUT ME</a></li>
+    </ul>
+    
+    <button class="drop-menu menu-fixed" onclick="down()"><i class="fa-solid fa-list"></i> MENU</button>
+
+    <header class="about-header bg-warning text-success">   
+        <h1 class="text-center text-white">ABOUT ME</h1>
+    </header>
+   
+    <div class="about-bg"></div>
+    <div class="about-main">
+        <img src="Images/Akshay-Image-3.1.jpg" class="about-image" alt="Akshay-Gohrava">
+        <div class="about-info">
+            <h1 class="about-text">PROFILE</h1>
+            <h2 class="about-name">Name: Akshay-Gohrava</h2>
+            <h3 class="about-name">Age: 23</h3>
+            <h3 class="about-name">Title: Full Stack Java Devloper</h3>
+            <h3 class="about-name">Interest: Travelling / Fitness /  Self-Improvement</h3>
+        </div>
+    </div>
+
+    <div class="form">
+        
+    </div>
+
+
+
+
+
+
+
+
+    
+    
+     
+
+
+    <script src="JS-Files/javascript.js"></script>
+</body>
+</html>
