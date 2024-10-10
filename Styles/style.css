@@ -176,7 +176,7 @@
 .about-main {
     /* background-color: #f1e7e7; */
     background-color: whitesmoke;
-    height: 57vh;
+    height: 65vh;
     width: 90%;
     margin-left: 5vw;
     position: relative;
@@ -186,6 +186,7 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 20px;
+    margin-bottom: -15vw;
 }
 .menu-fixed {
     position: fixed;
