@@ -142,10 +142,7 @@
 /* Responsive The About.html */
 
 
-.iframe {
-   position: relative;
-   top: 15vw;
-}
+
 
 @media screen and (min-width:500px) {
 
@@ -209,7 +206,10 @@
    letter-spacing: 0.1em;
    line-height: 1.9em;
 }
-
+.iframe {
+   position: relative;
+   top: 15vw;
+}
 
 
 }
