@@ -8,7 +8,7 @@
     background-size: cover;
 }
 .desktop-menu {
-   position: fixed;
+   position: absolute;
    animation-name: menu-animate;
    animation-duration: 0.9s;
    animation-iteration-count: 1;
@@ -20,6 +20,7 @@
    right: 1em;
    display: flex;
    justify-content: flex-end;
+   z-index: 2;
 }
 .desktop-menu-2 {
    background-color: transparent;
@@ -112,6 +113,7 @@
    border: 3px solid white;
 
 }
+
 @media screen and (min-width:500px) {
    .bg-image, .menu-bar, .menu-btn, .xclose, .flow ,.drop-menu {
       display: none;
@@ -138,6 +140,12 @@
 
 
 /* Responsive The About.html */
+
+
+.iframe {
+   position: relative;
+   top: 15vw;
+}
 
 @media screen and (min-width:500px) {
 
@@ -168,6 +176,7 @@
       background: #e0e0e0;
       box-shadow:  5px 5px 9px #a6a6a6,
              -5px -5px 9px #ffffff; 
+      z-index: 3;
    }
    .h1-title {
       color: black;
