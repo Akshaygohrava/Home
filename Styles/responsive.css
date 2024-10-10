@@ -206,9 +206,9 @@
    letter-spacing: 0.1em;
    line-height: 1.9em;
 }
-.iframe {
-   position: relative;
-   top: 15vw;
+
+.iframe-title {
+   margin-bottom: 15vh;
 }
 
 

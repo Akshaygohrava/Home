@@ -186,7 +186,7 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 20px;
-    /* margin-bottom: -15vw; */
+    margin-bottom: -15vw;
 }
 .menu-fixed {
     position: fixed;
