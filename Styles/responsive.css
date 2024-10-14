@@ -124,6 +124,19 @@
    .i-frame {
       height: 602px;
    }
+   footer {
+      position: relative;
+      width: 100%;
+      bottom: 0;
+      background-color: #4d0a0abd;
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      border-top: 5px solid red;
+      border-bottom: 5px solid red;
+  }
 
 }
 

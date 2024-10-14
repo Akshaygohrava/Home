@@ -56,6 +56,7 @@
     transition: 0.5s ease-in-out;
     border: 1vw solid blue;
     border-radius: 1vw;
+    z-index: 5;
 }
 /* MENU BUTTON FOR OTHER PAGES */
 .drop-menu {
@@ -136,7 +137,18 @@
     text-shadow: 0.20vw 0.20vw 0.20vw white;
 }
 
-
+footer {
+    position: relative;
+    bottom: 0;
+    max-width: 100%;
+    background-color: #4d0a0abd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 4px solid green;
+}
 
 
 
