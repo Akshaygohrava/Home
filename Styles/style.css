@@ -19,9 +19,24 @@
     color: rgba(7, 7, 156, 0.801);
     transition: 0.3s ease-in-out;
     position: absolute;
-    top: 5vw;
+    top:  5vw;
     left: 5vw;
+    animation-name: menu-animate;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* animation-timing-function: ease-in; */
+    animation-fill-mode: forwards;
     cursor: pointer;
+}
+@keyframes menu-animate {
+    0% {
+        left: -15vw;
+    }
+    100% {
+        left: 20vw;
+        ;
+    }
 }
 .drop-down {
     height: 100vh;
