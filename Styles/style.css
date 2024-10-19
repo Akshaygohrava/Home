@@ -234,11 +234,15 @@ footer {
  }
  .about-text, .about-name {
     letter-spacing: 2px;
-    line-height: 1.2em;
+    line-height: 1.4em;
  }
  .text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
+}
+.text-2 {
+    letter-spacing: 1px;
+    line-height: 2rem;
 }
