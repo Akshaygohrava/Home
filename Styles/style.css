@@ -233,8 +233,8 @@ footer {
     transform: translate(0, -12vh);
  }
  .about-text, .about-name {
-    letter-spacing: 0.1em;
-    line-height: 1.3em;
+    letter-spacing: 2px;
+    line-height: 1.2em;
  }
  .text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
