@@ -246,10 +246,14 @@ footer {
 }
 .text-2 {
     letter-spacing: 2px;
-    line-height: 2.3rem;
+    line-height: 2.5rem;
     font-size: 1.3rem;
 }
 .text-3 {
     letter-spacing: 2px;
-    line-height: 2.3rem;
+    line-height: 2.5rem;
 }
+/* .my-skills {
+    border: 1px solid green;
+    padding: 10px 20px;
+} */
