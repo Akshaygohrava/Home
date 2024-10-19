@@ -254,10 +254,20 @@ footer {
     line-height: 2.5rem;
 }
 .my-skills {
+    width: 100%;
     padding: 3px;
     padding: 20px 3px;
     border-radius: 19px;
-background: #e0e0e0;
+background: #ffffff;
 box-shadow:  5px 5px 10px #9d9d9d,
              -5px -5px 10px #ffffff;
+}
+.my-hobbies {
+    width: 100%;
+    padding: 3px;
+    padding: 20px 3px;
+    border-radius: 19px;
+background: #ffffff;
+box-shadow: inset 5px 5px 10px #9d9d9d,
+            inset -5px -5px 10px #ffffff;
 }
