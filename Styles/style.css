@@ -198,9 +198,13 @@ footer {
     position: relative;
     top: -9rem;
     /* box-shadow: 20px 20px 60px #00000041,inset -20px -20px 60px #ffffff40; */
-    box-shadow: 20px 20px 60px #0000006b,inset -20px -20px 60px #ffffff63;
+    /* box-shadow: 20px 20px 60px #0000006b,inset -20px -20px 60px #ffffff63;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 20px; */
+    border-radius: 19px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  5px 5px 10px #9d9d9d,
+                 -5px -5px 10px #ffffff;
     text-align: center;
     margin-bottom: -15vw;
 }
