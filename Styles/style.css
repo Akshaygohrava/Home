@@ -292,11 +292,12 @@ box-shadow:  5px 5px 10px #9d9d9d,
     
 }
 .my-info {
-    margin-bottom: 1em;
+    margin-bottom: 3em;
 }
 /* stying form*/
 .form {
     margin-bottom: 3rem;
+    background-color: whitesmoke;
 
 }
 .submit-btn {
