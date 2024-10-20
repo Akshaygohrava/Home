@@ -223,6 +223,28 @@
 .iframe-title {
    margin-bottom: 7vh;
 }
+.my-info {
+   position: absolute;
+   top: 40rem;
+   transform: translateX(6.5rem);
+}
+.my-skills , .my-hobbies {
+   height: 100vh;
+   transition: 0.3s ease-in-out;
+}
+.my-hobbies .text-2 {
+   line-height: 6rem;
+}
+.my-skills {
+   color: red;
+}
+.form {
+   position: relative;
+   top: 70rem;
+}
+
+
+
 
 
 }

@@ -37,7 +37,7 @@
             }
             .about-footer {
                 position: relative;
-                bottom: -30em;
+                bottom: -90em;
             }
         }
     </style>
@@ -77,7 +77,7 @@
         </div>
     </div>
     
-    <div class="container d-flex flex-column flex-md-row gap-5">
+    <div class="my-info container d-flex flex-column flex-md-row gap-5">
         <div class="my-skills mx-auto text-center">
             <h1 class="text text-3 mb-4">My Skills</h1>
             <ul class="list-unstyled">
@@ -98,17 +98,34 @@
         <div class="my-hobbies mx-auto text-center">
             <h1 class="text text-3 mb-4">Hobbies</h1>
             <ul class="list-unstyled">
-                <li class="text-2">CODING</li>
-                <li class="text-2">BADMINTON</li>
-                <li class="text-2">GYM</li>
-                <li class="text-2">TRAVELLING</li>
-                <li class="text-2">GAMING</li>
+                <li class="text-2 text-4">CODING</li>
+                <li class="text-2 text-4">BADMINTON</li>
+                <li class="text-2 text-4">GYM</li>
+                <li class="text-2 text-4">TRAVELLING</li>
+                <li class="text-2 text-4">GAMING</li>
             </ul>
         </div>
     </div>
     
-    <div class="form mx-auto text-center">
+    <div class="form mx-auto text-center d-flex flex-column gap-4">
         <h1 class="text">Contact Me</h1>
+        <div>
+            <h2>Name</h2>
+        <input type="text" placeholder="Name Here ......" required>
+        </div>
+        <div>
+            <h2>Email</h2>
+        <input type="email" placeholder="Email ...." required>
+        </div>
+        <div>
+            <h2>Phone Number</h2>
+        <input type="number" placeholder="eg. +91" maxlength="10" required>
+        </div>
+        <div>
+            <h2>Message</h2>
+            <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="Message Goes Here ...."></textarea>
+        </div>
+        <button class="submit-btn"><span class="sub-btn"></span>Button</button>
     </div>
 
 

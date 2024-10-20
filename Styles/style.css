@@ -252,10 +252,25 @@ footer {
     letter-spacing: 2px;
     line-height: 2.5rem;
     font-size: 1.3rem;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    color: red;
+}
+.text-2:hover {
+    color: white;
 }
 .text-3 {
     letter-spacing: 2px;
     line-height: 2.5rem;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.text-3:hover {
+    color: goldenrod;
+}
+.text-4 {
+    color: green;
 }
 .my-skills {
     width: 97%;
@@ -275,4 +290,7 @@ box-shadow:  5px 5px 10px #9d9d9d,
     box-shadow:  5px 5px 10px #9d9d9d,
                  -5px -5px 10px #ffffff;
     
+}
+.my-info {
+    margin-bottom: 3em;
 }
