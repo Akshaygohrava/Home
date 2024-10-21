@@ -128,7 +128,7 @@
       position: relative;
       width: 100%;
       bottom: 0;
-      background-color: #4d0a0abd;
+      background-color: #e0e0e0;
       padding: 20px;
       display: flex;
       flex-direction: row;
@@ -241,8 +241,31 @@
 .form {
    position: relative;
    top: 70rem;
+   margin-bottom: -20rem;
+   padding-bottom: 3rem;
+   gap: 20rem;
 }
-
+.submit-btn {
+   width: 20%;
+}
+.sub-btn {
+   transform: translate(-210px, 0px);
+}
+.contact {
+   font-size: 3rem;
+}
+.about-input {
+   padding: 20px 70px;
+   border: 3px solid navajowhite;
+   /* font-size: 2rem; */
+}
+.about-input:focus {
+   box-shadow: 9px 13px 15px navajowhite;
+}
+.about-input::placeholder {
+   font-size: 1.7em;
+   color: silver;
+}
 
 
 
