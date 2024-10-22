@@ -348,3 +348,22 @@ box-shadow:  5px 5px 10px #9d9d9d,
 .about-input:focus {
     box-shadow: 4px 6px 9px navajowhite;
 }
+
+
+
+/* Styling Gallery    */
+
+.gallery {
+    
+}
+
+.gallery-item {
+   height: 100vh;
+}
+
+.gallery-image {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}

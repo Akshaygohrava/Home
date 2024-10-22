@@ -14,12 +14,19 @@
     <title>MY-GALLERY</title>
     <style>
         footer {
-            position: absolute;
+            position: relative;
             bottom: 0;
             width: 100%;
+            border-radius: 0;
         }
-        .menu-btn {
-            z-index: 4;
+        .drop-menu {
+           z-index: -9;
+        }
+        .menu-bar {
+            color: rgba(255, 166, 0, 0.459);
+        }
+        .menu-bar:hover {
+            color: orange;
         }
     </style>
 </head>
@@ -39,10 +46,64 @@
         <li class="d-top"><a href="gallery.html"><i class="fa-regular fa-images"></i> GALLERY</a></li>
         <li class="d-top"><a href="about.html"><i class="fa-solid fa-user"></i> ABOUT ME</a></li>
     </ul>
-    
+    <i class="fa-solid fa-bars fa-shake menu-bar" onclick="drop()"></i>
+    <aside id="drop" class="drop-down" style="background-image: url('Images/Akshay-Gohrava-6.jpeg');">
+        <i class="fa-regular fa-circle-xmark fa-bounce closed" onclick="closed()"></i>
+    </aside>
     <!-- <h1 class="text-center bg-info p-5 text-primary">MY GALLERY</h1> -->
     <button class="drop-menu" onclick="down()"><i class="fa-solid fa-list"></i> MENU</button>
+    
 
+
+    
+    <div class="gallery"> 
+      <div class="gallery-item">
+        <img class="gallery-image" src="Images/Akshay-Gohrava-5.jpeg" alt="Akshay-Gohrava">
+      </div>
+      <div class="gallery-item">
+        <img class="gallery-image" src="Images/Akshay-Gohrava-1.jpeg" alt="Akshay-Gohrava">
+      </div>
+      <div class="gallery-item">
+        <img class="gallery-image" src="Images/Akshay-Image-6.jpg" alt="Akshay-Gohrava">
+      </div>
+      <div class="gallery-item">
+        <img class="gallery-image" src="Images/Akshay-Image-4.jpg" alt="Akshay-Gohrava">
+      </div>
+      <div class="gallery-item">
+        <img class="gallery-image" src="Images/Akshay-Gohrava-2.jpeg" alt="Akshay-Gohrava">
+      </div>
+      <div class="gallery-item">
+        <img class="gallery-image" src="Images/Akshay-Gohrava-3.jpeg" alt="Akshay-Gohrava">
+      </div>
+      <div class="gallery-item">
+        <img class="gallery-image" src="Images/Akshay-Gohrava-4.jpeg" alt="Akshay-Gohrava">
+      </div>
+      <div class="gallery-item">
+        <img class="gallery-image" src="Images/Akshay-Gohrava-11.jpeg" alt="Akshay-Gohrava">
+      </div>
+
+
+
+
+
+
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     
 
