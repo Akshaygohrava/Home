@@ -73,7 +73,27 @@
     border-radius: 1vw;
     transition: 0.6s ease-out;
     box-shadow: 20px 20px 60px #00000041,inset -20px -20px 60px #ffffff40;
-    z-index: -3;
+}
+.about-menu {
+    z-index: 4;
+    position: absolute;
+    transform: translate(0px,150px);
+    opacity: 0;
+    animation-name: about-menu;
+    animation-duration: 0.5s;
+    animation-delay: 10s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes about-menu {
+    0% {
+        transform: translate(0px,150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px,0px);
+        opacity: 1;
+    }
 }
 .drop-menu:hover {
     background-color: green;
@@ -210,8 +230,9 @@ footer {
     margin-bottom: -15vw;
 }
 .menu-fixed {
-    position: fixed;
+   position: fixed;
 }
+
 .about-image {
     height: 250px;
     width: 230px;
@@ -349,10 +370,6 @@ box-shadow:  5px 5px 10px #9d9d9d,
 .about-input:focus {
     box-shadow: 4px 6px 9px navajowhite;
 }
-.z-footer {
-    z-index: -10;
-}
-
 
 
 /* Styling Gallery    */
