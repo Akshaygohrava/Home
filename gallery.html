@@ -19,14 +19,21 @@
             width: 100%;
             border-radius: 0;
         }
-        .drop-menu {
-           z-index: -9;
-        }
         .menu-bar {
             color: rgba(255, 166, 0, 0.459);
         }
         .menu-bar:hover {
             color: orange;
+        }
+        .about-menu {
+          animation-delay: 3s;
+          animation-fill-mode: forwards;
+          color: white;
+          border-color: white;
+        }
+        .about-menu:hover {
+          background-color: transparent;
+          color: whitesmoke;
         }
     </style>
 </head>
@@ -51,7 +58,7 @@
         <i class="fa-regular fa-circle-xmark fa-bounce closed" onclick="closed()"></i>
     </aside>
     <!-- <h1 class="text-center bg-info p-5 text-primary">MY GALLERY</h1> -->
-    <button class="drop-menu" onclick="down()"><i class="fa-solid fa-list"></i> MENU</button>
+    <button class="drop-menu about-menu" onclick="down()"><i class="fa-solid fa-list"></i> MENU</button>
     
 
 

@@ -74,17 +74,6 @@
     transition: 0.6s ease-out;
     box-shadow: 20px 20px 60px #00000041,inset -20px -20px 60px #ffffff40;
 }
-.about-menu {
-    z-index: 4;
-    position: absolute;
-    transform: translate(0px,150px);
-    opacity: 0;
-    animation-name: about-menu;
-    animation-duration: 0.5s;
-    animation-delay: 10s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
 @keyframes about-menu {
     0% {
         transform: translate(0px,150px);
@@ -179,6 +168,17 @@ footer {
 
 /* Styling About Section */
 
+.about-menu {
+    z-index: 4;
+    position: absolute;
+    transform: translate(0px,150px);
+    opacity: 0;
+    animation-name: about-menu;
+    animation-duration: 0.5s;
+    animation-delay: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
 .about-header {
     background-color: lightslategrey;
     height: 70px;
@@ -375,7 +375,7 @@ box-shadow:  5px 5px 10px #9d9d9d,
 /* Styling Gallery    */
 
 .gallery {
-    
+    z-index: 3;
 }
 
 .gallery-item {
