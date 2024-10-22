@@ -33,7 +33,14 @@
         }
         .about-menu:hover {
           background-color: transparent;
-          color: whitesmoke;
+          color: orange;
+          border-color: orange;
+        }
+        .closed {
+          color: rgba(255, 166, 0, 0.322);
+        }
+        .gallery-menu {
+          z-index: 1;
         }
     </style>
 </head>
@@ -58,7 +65,7 @@
         <i class="fa-regular fa-circle-xmark fa-bounce closed" onclick="closed()"></i>
     </aside>
     <!-- <h1 class="text-center bg-info p-5 text-primary">MY GALLERY</h1> -->
-    <button class="drop-menu about-menu" onclick="down()"><i class="fa-solid fa-list"></i> MENU</button>
+    <button class="drop-menu about-menu gallery-menu" onclick="down()"><i class="fa-solid fa-list"></i> MENU</button>
     
 
 
