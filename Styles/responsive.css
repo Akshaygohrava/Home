@@ -69,13 +69,16 @@
    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
    animation-delay: 0.9s;
    animation-fill-mode: forwards;
+   opacity: 0;
 }
 @keyframes follow-me {
    0% {
       transform: translate(75vh, -0vh);
+      opacity: 0;
    }
    100% {
       transform: translate(75vh, -30vh);
+      opacity: 1;
    }
 }
 .follow-btn {
