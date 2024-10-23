@@ -58,6 +58,15 @@
     border: 1vw solid blue;
     border-radius: 1vw;
 }
+.index-menu {
+    transform: translate(0px,150px);
+    opacity: 0;
+    animation-name: about-menu;
+    animation-duration: .7s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
 /* MENU BUTTON FOR OTHER PAGES */
 .drop-menu {
     color: green;
