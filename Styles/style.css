@@ -173,6 +173,7 @@ footer {
 .text-hover {
     cursor: pointer;
     font-size: 1.3em;
+    color: white;
 }
 
 /* Styling About Section */
@@ -396,4 +397,11 @@ box-shadow:  5px 5px 10px #9d9d9d,
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
+}
+
+
+/* Styling Projects */
+
+.project {
+    border: 2px solid green;
 }

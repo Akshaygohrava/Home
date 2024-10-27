@@ -131,7 +131,7 @@
       position: relative;
       width: 100%;
       bottom: 0;
-      background-color: #e0e0e0;
+      background-color: rgba(0, 0, 255, 0.438) !important;
       padding: 20px;
       display: flex;
       flex-direction: row;
