@@ -140,7 +140,9 @@
       border-top: 5px solid red;
       border-bottom: 5px solid red;
   }
-
+ .footer-home {
+   background-color: black !important;
+ }
 }
 
 
@@ -296,5 +298,30 @@
 
 
 
+
+}
+
+
+/* Styling Projects Sections */
+
+@media screen and (min-width:500px) {
+   
+   .project-main {
+      position: relative;
+      top: 8rem;
+      margin-bottom: 10rem;
+   }
+ .description {
+   font-size: 23px;
+   line-height: 2rem;
+ }
+.project-item h4 a {
+   font-size: 35px;
+   transition: 0.4s all;
+   padding: 10px 0;
+}
+.project-item h4 a:hover {
+   border-bottom: 2px solid white;
+}
 
 }
