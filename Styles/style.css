@@ -423,8 +423,8 @@ box-shadow:  5px 5px 10px #9d9d9d,
     margin-bottom: 23px;
 }
 .description {
-    font-size: 17px;
-    line-height: 1.8rem;
+    font-size: 20px;
+    line-height: 2rem;
     text-transform: capitalize;
 }
 a {
