@@ -20,3 +20,5 @@ function down() {
 // closing the menu
 
 xclose = () => document.getElementById('menu-down').style.height = "0";
+
+AOS.init();

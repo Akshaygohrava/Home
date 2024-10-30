@@ -9,6 +9,8 @@
     <script src="https://kit.fontawesome.com/d60ba746d7.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&amp;effect=anaglyph|emboss|fire|fire-animation|neon|outline|shadow-multiple|3d|3d-float">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="Styles/responsive.css">
     <title>MY-GALLERY</title>
@@ -26,7 +28,7 @@
             color: orange;
         }
         .about-menu {
-          animation-delay: 2s;
+          animation-delay: 1s;
           animation-fill-mode: forwards;
           color: white;
           border-color: white;
@@ -75,28 +77,30 @@
 
     
     <div class="gallery"> 
-      <div class="gallery-item">
+      <div class="gallery-item" data-aos="zoom-in-right">
         <img class="gallery-image" src="Images/Akshay-Gohrava-5.jpeg" alt="Akshay-Gohrava">
       </div>
-      <div class="gallery-item">
+      <div class="gallery-item" data-aos="zoom-in">
         <img class="gallery-image" src="Images/Akshay-Gohrava-1.jpeg" alt="Akshay-Gohrava">
       </div>
-      <div class="gallery-item">
+      <div class="gallery-item" data-aos="zoom-in-up">
         <img class="gallery-image" src="Images/Akshay-Image-6.jpg" alt="Akshay-Gohrava">
       </div>
-      <div class="gallery-item">
+      <div class="gallery-item" data-aos="zoom-in-down">
         <img class="gallery-image" src="Images/Akshay-Image-4.jpg" alt="Akshay-Gohrava">
       </div>
-      <div class="gallery-item">
+      <div class="gallery-item" data-aos="flip-left">
         <img class="gallery-image" src="Images/Akshay-Gohrava-2.jpeg" alt="Akshay-Gohrava">
       </div>
-      <div class="gallery-item">
+      <div class="gallery-item" data-aos="flip-right">
         <img class="gallery-image" src="Images/Akshay-Gohrava-3.jpeg" alt="Akshay-Gohrava">
       </div>
-      <div class="gallery-item">
+      <div class="gallery-item" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
         <img class="gallery-image" src="Images/Akshay-Gohrava-4.jpeg" alt="Akshay-Gohrava">
       </div>
-      <div class="gallery-item">
+      <div class="gallery-item" data-aos="fade-up"
+      data-aos-anchor-placement="top-center">
         <img class="gallery-image" src="Images/Akshay-Gohrava-11.jpeg" alt="Akshay-Gohrava">
       </div>
 
@@ -131,7 +135,7 @@
 
 
 <!-- class gallery-footer -->
-    <footer class="gallery-footer">  
+    <footer class="gallery-footer" data-aos="zoom-out-left">  
         <div class="address">
             <h1 class="text-warning">Address</h1>
             <p class="text-white text-hover">Mumbai, Maharastra,<br>Malabar Hill,<br>Walkeshwar Rd,<br>Lodha Seamont</p>
