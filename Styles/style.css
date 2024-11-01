@@ -176,6 +176,15 @@ footer {
     color: white;
 }
 
+/* Optional for Error */
+
+.error-aos {
+    margin-left: 10px;
+}
+
+
+/* Error Aos */
+
 /* Styling About Section */
 
 .about-menu {
