@@ -179,12 +179,14 @@ footer {
 /* Optional for Error */
 
 .error-aos {
-    margin-right: 6rem !important;
+    margin-right: 6.1rem !important;
 }
 .error-aos-1 {
-    margin-right: 5.7rem !important;
+    margin-right: 6rem !important;
 }
-
+.error-aos-2 {
+    margin-right: 5.5rem !important;
+}
 /* Error Aos */
 
 /* Styling About Section */
