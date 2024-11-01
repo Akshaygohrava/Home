@@ -173,7 +173,7 @@ footer {
 .text-hover {
     cursor: pointer;
     font-size: 1.3em;
-    color: white;
+    color: white !important;
 }
 
 /* Optional for Error */
