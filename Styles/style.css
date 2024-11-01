@@ -176,13 +176,13 @@ footer {
     color: white !important;
 }
 
-/* Optional for Error */
+/* Optional Error For AOS , Remove if Remove AOS */
 
 .error-aos {
     margin-right: 6.1rem !important;
 }
 .error-aos-1 {
-    margin-right: 6.7rem !important;
+    margin-right: 6.6rem !important;
 }
 .error-aos-2 {
     margin-right: 5.4rem !important;
