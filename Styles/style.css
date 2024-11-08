@@ -9,6 +9,9 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
+body {
+    overflow-x: hidden;
+}
 .bg-image {
     height: 100vh;
     width: 100%;
