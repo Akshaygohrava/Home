@@ -364,10 +364,10 @@ box-shadow:  5px 5px 10px #9d9d9d,
     overflow: hidden;
     letter-spacing: 1.5px;
 }
-.submit-btn:hover  .sub-btn {
+/* .submit-btn:hover  .sub-btn {
     color: white;
     transform: translate(0, 0px);
-}
+} */
 .sub-btn {
     position: absolute;
     top: 0;

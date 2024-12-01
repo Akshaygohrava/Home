@@ -20,3 +20,8 @@ function down() {
 // closing the menu
 
 xclose = () => document.getElementById('menu-down').style.height = "0";
+
+swipe = () => {
+   const swipe = document.querySelector(".sub-btn");
+   swipe.style.transform = "translate(0,0px)";
+}
