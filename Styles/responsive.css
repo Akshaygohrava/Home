@@ -160,7 +160,12 @@
    .desktop-menu, .follow-me {
       display: none;
    }
-   
+   .autotype a {
+      color: rgb(8, 10, 134);
+      position: absolute;
+      top: 200px;
+      left: 25px;
+   }
 }
 
 
