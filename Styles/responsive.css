@@ -153,6 +153,8 @@
  .footer-home {
    background-color: black !important;
  }
+
+
 }
 
 
@@ -166,6 +168,13 @@
       position: absolute;
       top: 200px;
       left: 25px;
+   }
+   .autotype a {
+      color: black;
+      position: absolute;
+      top: 200px;
+      left: 38px;
+      font-family: cursive;
    }
 }
 
