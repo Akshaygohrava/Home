@@ -119,10 +119,11 @@
 /* Auto-Typing....... */
 
 .autotype a {
-   color: white;
+   color: black;
    position: absolute;
    top: 200px;
    left: 40px;
+   font-family: cursive;
 }
 
 /* ////////// */
