@@ -119,7 +119,7 @@
 /* Auto-Typing....... */
 
 .autotype a {
-   color: white;
+   color: black;
    position: absolute;
    top: 200px;
    left: 40px;
@@ -175,7 +175,7 @@
       top: 200px;
       left: 38px;
       font-family: cursive;
-      font-size: 1.8rem;
+      font-size: 2rem;
    }
 }
 
