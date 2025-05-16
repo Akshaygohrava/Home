@@ -1,4 +1,3 @@
-Awesome! Here’s a polished and engaging README template for your personal portfolio repository, tailored to the info you provided:
 
 ---
 
