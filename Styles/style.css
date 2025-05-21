@@ -19,7 +19,8 @@ body {
 }
 .menu-bar {
     font-size: 3em;
-    color: rgba(7, 7, 156, 0.801);
+    /* color: rgba(7, 7, 156, 0.801); */
+    color: rgba(255, 166, 0, 0.822);
     transition: 0.3s ease-in-out;
     position: absolute;
     top:  5vw;
@@ -49,7 +50,7 @@ body {
     color: blue;
 }
 .menu-btn {
-    color: blue;
+    color: green;
     background-color: transparent;
     padding: 2vw 4vw;
     position: relative;
@@ -58,7 +59,7 @@ body {
     font-size: 1.2em;
     outline: none;
     transition: 0.5s ease-in-out;
-    border: 1vw solid blue;
+    border: 1vw solid green;
     border-radius: 1vw;
 }
 .index-menu {
