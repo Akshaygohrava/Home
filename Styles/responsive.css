@@ -174,7 +174,7 @@
       position: absolute;
       top: 200px;
       left: 38px;
-      font-family: cursive;
+      /* font-family: cursive; */
       font-size: 2rem;
    }
 }

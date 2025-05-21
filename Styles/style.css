@@ -102,7 +102,7 @@ body {
     color: white;
 }
 .menu-btn:hover {
-    background-color: blue;
+    background-color: black;
     color: white;
     border: navajowhite;
     box-shadow: 0.40vw 0.40vw 0.40vw black;
